@@ -1,0 +1,443 @@
+﻿.banner {
+	width: 100%;
+	position: relative;
+}
+.swiper-pagination {
+	width: 100%!important;
+	text-align: center!important;
+	bottom: 0.1rem!important;
+}
+.swiper-pagination-bullet {
+	background-color: #fad807!important;
+	opacity: 1!important;
+	border: 2px solid #fad807;
+}
+.swiper-pagination-bullet-active {
+	background-color: transparent!important;
+	border: 2px solid #fad807;
+}
+.allpage {
+	background-color: #eff6e4!important;
+}
+body, input {
+	font-family: "microsoft yahei";
+	outline: none;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+@font-face {
+	font-family: "iconfont2";
+	src: url('../other/iconfont.woff2') format('woff'), url('../other/iconfont2.ttf') format('truetype');
+}
+.iconfont2 {
+	font-family: "iconfont2"!important;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+.search_lh {
+	width: 100%;
+	background-color: #51adfd;
+}
+.index_text {
+	width: 93%;
+	font-size: 14px;
+	height: 0.5rem;
+	background: #fff url(../images/search_bg_05.png) no-repeat 95% center;
+	-webkit-background-size: 7%;
+	background-size: 7%;
+	border: none;
+	font-family: "microsoft yahei";
+	text-indent: 3%;
+	margin: 2% 0;
+	border-radius: 6px;
+	margin-left: 3.5%;
+}
+.nav_new {
+	width: 100%;
+	background-color: #76EE00;
+}
+.nav_color1 {
+	background-color: #d61718;
+}
+.nav_new ul li {
+	width: 33.33%;
+	height: 0.5rem;
+	float: left;
+	text-align: center;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff; box-sizing:border-box
+}
+.nav_new ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	color: #fff;
+	font-size: 0.22rem;
+	font-family: "microsoft yahei";
+}
+.nav_new ul li:last-child a {
+	border: none;
+}
+.common_i_css {
+	padding: 0 4%;
+	margin-bottom: 2%;
+}
+.common_i_title {
+	text-align: left;
+	margin-top: 3%;
+	margin-bottom: 4%;
+	background-color: #61d276;
+	border-radius: 17px;
+	padding: 1% 1.5%;
+}
+.common_i_title h2 {
+	display: inline-block;
+	width: 50%;
+	color: #fff;
+	font-size: 0.26rem;
+	font-weight: normal;
+	padding: 1% 3%;
+}
+.common_i_title a {
+	display: inline-block;
+	width: 0.3rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	float: right;
+	color: #61d276;
+	background-color: #fff;
+	font-size: 0.26rem;
+	font-weight: bold;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: 1.3%;
+	margin-right: 2%;
+}
+.news_i_list ul li {
+	padding: 1.5% 4%;
+	background-color: #fff;
+	-webkit-background-size: 4%;
+	background-size: 4%;
+	margin-top: 1.5%;
+	background: #fff url(../images/00019400_03.jpg) no-repeat 96% center;
+	-webkit-background-size: 2.5%;
+	background-size: 2.5%;
+}
+.news_i_list ul li a {
+	display: inline-block;
+	width: 85%;
+	color: #666666;
+	font-size: 0.23rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.news_i_list ul li span {
+	display: block;
+	width: 100%;
+	color: #cd2223;
+	font-size: 0.21rem;
+	vertical-align: middle;
+	margin-top: 1%;
+	overflow: hidden;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+.icon_nav {
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+.icon_nav ul li {
+	width: 21%;
+	text-align: center;
+	float: left;
+	margin: 0 2%;
+}
+.icon_nav ul li a strong {
+	display: inline-block;
+	border-radius: 50%;
+	color: #20c46d;
+	border: 2px solid #20c46d;
+	font-size: 0.6rem;
+	width: 0.9rem;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	font-weight: normal;
+	background-color: #fff;
+	overflow: hidden;
+}
+.icon_nav ul li a span {
+	display: inline-block;
+	color: #333;
+	font-size: 0.23rem;
+	margin-top: 8%;
+	width: 100%;
+	height: 0.3rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.yewu_i_list {
+	margin-top: 2%;
+}
+.yewu_i_list_new ul li {
+	border-bottom: 1px solid #e7e7e7;
+}
+.yewu_i_list ul li {
+	margin-bottom: 1%;
+	padding-bottom: 2%;
+}
+.i_list_pic {
+	width: 35.93%;
+	float: left;
+}
+.i_list_text {
+	width: 60%;
+	float: left;
+	margin-left: 4%;
+}
+.i_list_text_new {
+	width: 100%;
+	margin-left: 0;
+}
+.i_list_text a h2 {
+	font-size: 0.26rem;
+	font-weight: normal;
+	color: #000;
+	overflow: hidden;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+.i_list_text a span {
+	display: inline-block;
+	font-size: 0.21rem;
+	height: 0.62rem;
+	line-height: 1.5;
+	color: #505050;
+	overflow: hidden;
+	margin-top: 0.04rem;
+}
+.i_list_text strong {
+	display: inline-block;
+	font-weight: normal;
+	font-size: 0.19rem;
+	color: #646464;
+}
+.about_i_text {
+	line-height: 1.6;
+	font-size: 0.21rem;
+	margin: 0 2%;
+	margin-top: 2%;
+	padding: 2%;
+	background-color: #61d276;
+	border: 1px solid #1f7543;
+	color: #fff;
+}
+.jiameng_tel {
+	text-align: center;
+	padding: 1.5% 0;
+	background-color: #fff;
+}
+.jiameng_tel h2 {
+	display: inline-block;
+	width: 100%;
+	padding: 1.5% 0;
+	font-size: 0.26rem;
+	font-weight: normal;
+	text-align: center;
+	color: #fcdb02;
+	background-color: #e70012;
+	margin-bottom: 2%;
+}
+.jiameng_tel span {
+	font-size: 0.36rem;
+	margin-right: 2%;
+}
+.product_i_list {
+	margin-top: 3%;
+	padding: 0 2%;
+}
+.product_i_list ul li {
+	width: 43.5%;
+	float: left;
+	margin-bottom: 2%;
+	border: 1px solid #04652f;
+	padding: 2%;
+	background-color: #5ead66;
+	position: relative;
+}
+.product_i_list ul li:nth-child(even) {
+	margin-left: 3.5%;
+}
+.product_i_list ul li img {
+	border: 1px solid #04652f;
+}
+.product_i_list ul li a span {
+	display: block;
+	height: 0.35rem;
+	line-height: 0.35rem;
+	font-size: 0.21rem;
+	color: #fff;
+	background-color: #76EE00;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	margin-top: 3%;
+	margin-bottom: 1%;
+}
+.product_i_list ul li b {
+	display: inline-block;
+	width: 0.45rem;
+	height: 0.45rem;
+	line-height: 0.45rem;
+	position: absolute;
+	top: 0;
+	left: 10%;
+	text-align: center;
+	color: #f5ff57;
+	background: url(../images/0001941_03.png) no-repeat center center;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	font-size: 0.23rem;
+	font-weight: normal;
+}
+.cpcp {
+	padding: 0 2%;
+	margin: 3.5% 0;
+}
+.cpcp a {
+	display: inline-block;
+	width: 31.7%;
+	color: #76EE00;
+	background-color: #fff;
+	text-align: center;
+	font-size: 0.22rem;
+	border: 1px solid #bababa;
+	border-radius: 15px;
+	overflow: hidden;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+.cpcp a:last-child {
+	border-right: 0;
+}
+.product_i_list_new ul li {
+	width: 30.3%;
+	float: left;
+	margin: 0 1.5%;
+	margin-bottom: 1%;
+}
+.product_i_list_new ul li a span {
+	display: inline-block;
+	width: 100%;
+	height: 0.45rem;
+	line-height: 0.45rem;
+	font-size: 0.21rem;
+	color: #333;
+	text-align: center;
+}
+.product_i_list_top ul li {
+	border: none;
+}
+.product_i_list_top ul li span {
+	width: 80%;
+	padding-left: 20%;
+	border-top: 0!important;
+	background: url(../images/0001811_16.png) no-repeat left center;
+	-webkit-background-size: 18%;
+	background-size: 18%;
+	text-align: left!important;
+}
+.product_i_list_top ul li img {
+	border-top: 2px solid #cd2223;
+}
+.more_i {
+	margin-top: 3%;
+	text-align: center;
+	padding-bottom: 1%;
+	background-color: #efefef;
+}
+.more_i a {
+	display: inline-block;
+	color: #666;
+	font-size: 0.23rem;
+	font-weight: normal;
+	padding: 0.5% 3%;
+}
+.contact {
+	color: #fff;
+	background-color: #fff;
+	line-height: 1.7;
+	font-size: 0.21rem;
+	border-radius: 7px;
+	padding: 0 4%;
+	padding-bottom: 1%;
+}
+.contact h2 {
+	color: #00cef3;
+	font-weight: normal;
+	font-size: 0.26rem;
+	margin-bottom: 1%;
+	margin-top: 1.5%;
+}
+.contact div {
+	padding-left: 2%;
+	margin-bottom: 1%;
+	color: #fff;
+}
+.green {
+	background-color: #ea536d;
+}
+.red {
+	background-color: #d5c933;
+}
+.dajang {
+	background-color: #f6a625;
+}
+.contact span {
+	display: inline-block;
+	width: 80%;
+	padding: 0.5% 0;
+	font-size: 0.21rem;
+}
+.baoming {
+	padding: 2% 8%;
+	background-color: #76EE00;
+	color: #fff;
+	text-align: center;
+	font-size: 0.21rem;
+	line-height: 1.7;
+}
+.baoming div {
+	font-size: 0.24rem;
+	background: url(../images/0001944_07.jpg) no-repeat left center;
+	-webkit-background-size: 8%;
+	background-size: 8%;
+}
+.baoming span {
+	color: #ffdf18;
+}
+.beian {
+	background-color: #fff;
+	color: #333;
+	text-align: center;
+	height: 0.65rem;
+	line-height: 0.65rem;
+	font-size: 0.21rem;
+}
+.beian a {
+	color: #333;
+	font-size: 0.21rem;
+}
